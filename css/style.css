@@ -1,0 +1,42 @@
+body {
+    background-image: url("background.png");
+    background-repeat: repeat;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+
+.menu {
+    
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-title {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.site-subtitle {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+}
